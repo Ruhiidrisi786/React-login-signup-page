@@ -17,19 +17,65 @@ body{
 
 .btn button{
     font-size: 1.2rem;
-    width: 48%;
-    border-radius: 10px 10px 0 0;
+    width: 50%;
+    border-radius: 8px 8px 0 0;
     padding: 4px 0;
-    border: none;
     cursor: pointer;
     background-color: #fff;
-    margin : 2px;
-    color: blue;
-    border: 1px solid blue
+    color: rgba(0, 0, 255, 0.493);
+    border: 1px solid rgba(0, 0, 255, 0.493)
 }
 
 .btn .active{
     border: 1px solid #fff;
     color: #fff;
-    background-color: blue;
+    background-color: rgba(0, 0, 255, 0.493);
+}
+
+h2{
+    color: rgba(0, 0, 255, 0.493);
+}
+
+input{
+    width: 98%;
+    height: 2rem;
+    margin-bottom: 0.6rem;
+    border-radius: 5px;
+    border: 1.5px solid rgba(0, 0, 255, 0.493);
+    font-size: 1rem;
+    
+}
+
+.forgot-password{
+    width: 100%;
+    position: relative;
+    text-align: right;
+    margin-top: 8px;
+    color: #0000ee;
+    cursor: pointer;
+}
+
+.login-btn, .signup-btn{
+    width: 100%;
+    height: 2.1rem;
+    background-color:  rgba(0, 0, 255, 0.493);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    padding-left: 4px;
+}
+
+.signup-input{
+    margin-bottom: 20px;
+    padding-left: 4px;
+}
+
+.bottom{
+    text-align: center;
+}
+
+.bottom a{
+    text-decoration: none;
+    cursor: pointer;
 }
