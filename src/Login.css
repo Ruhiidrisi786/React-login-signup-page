@@ -1,0 +1,35 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+    height: 100vh;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.container{
+    border-radius: 10px;
+    height: 100%;
+    width: 50vh;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.btn button{
+    font-size: 1.2rem;
+    width: 48%;
+    border-radius: 10px 10px 0 0;
+    padding: 4px 0;
+    border: none;
+    cursor: pointer;
+    background-color: #fff;
+    margin : 2px;
+    color: blue;
+    border: 1px solid blue
+}
+
+.btn .active{
+    border: 1px solid #fff;
+    color: #fff;
+    background-color: blue;
+}
